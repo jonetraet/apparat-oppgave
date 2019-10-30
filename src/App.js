@@ -1,15 +1,20 @@
 import React from "react";
-import Header from './components/Header';
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import './App.css';
+import './components/Header/Header.css'
+import Header from "./components/Header/Header"
+import User from './components/User'
+import Navbar from "./components/Navbar"
+import Thread from './components/Thread'
+
 
 
 function App() {
   return (
     <div>
       <Header />
-      <MainContent />
-      <Footer />
+      <Navbar />
+      <User />
+      <Thread />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+$primary: rgb(30, 66, 57);
+
+.navbar {
+  li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $primary;
+    display: inline;
+    padding-right: 50px;
+  }
+}
