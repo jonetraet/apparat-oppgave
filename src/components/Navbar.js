@@ -16,20 +16,19 @@ link: {
 
 const Navbar = () => {
 const classes = useStyles();
-const preventDefault = event => event.preventDefault();
 
     return (
         <div>
             <AppBar position="static">
                 <Toolbar>
                     <Typography>
-                        <Link href="https://google.com" onClick={preventDefault} color="inherit" className={classes.link}>
+                        <Link href="https://google.com" color="inherit" className={classes.link}>
                             Threads
                         </Link>
-                        <Link href="https://youtube.com" onClick={preventDefault} color="inherit" className={classes.link}>
+                        <Link href="https://youtube.com" color="inherit" className={classes.link}>
                             Register
                         </Link>
-                        <Link href="https://finn.no" onClick={preventDefault} color="inherit" className={classes.link}>
+                        <Link href="https://finn.no" color="inherit" className={classes.link}>
                             Contact us
                         </Link>
                     </Typography>

@@ -20,10 +20,3 @@ function User () {
 }
 
 export default User;
-
-function writeUserData(userId, name, email) {
-  firebase.database().ref('user/' + userId).set({
-    name: name,
-    email: email,
-  });
-}

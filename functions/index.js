@@ -34,7 +34,7 @@ exports.getPosts = functions.https.onRequest((request, response) => {
 
 exports.createPost = functions.https.onRequest((request, response) =>{
     const newPost = {
-        author: 'Jonebass'
+        author: request.author.author
     };
 
     admin.firestore()

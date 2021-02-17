@@ -12,8 +12,8 @@ const config = {
     appId: "1:317285027699:web:be39252dd624fa4526bf06",
     measurementId: "G-128MSH51MM"
 };
-firebase.initializeApp(config);
 
+firebase.initializeApp(config);
 
 export default firebase;
 export const app = firebase.app();
